@@ -1,0 +1,102 @@
+/* Umum */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login */
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #ff6f91;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ffb6b9;
+  border-radius: 5px;
+}
+
+.login-box button {
+  background: #ff6f91;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Ucapan ulang tahun */
+.birthday-page {
+  background: linear-gradient(120deg, #fbc2eb, #a6c1ee);
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.card h1 {
+  font-size: 2em;
+  color: #ff6f91;
+}
+
+.card p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+label {
+  color: #333;
+  font-size: 14px;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+
+
+.password-container button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
